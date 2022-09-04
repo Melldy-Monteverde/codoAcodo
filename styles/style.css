@@ -1,0 +1,142 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap");
+
+/* normalize */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+  list-style-type: none;
+}
+
+body {
+  background-color: #efefef;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* navbar */
+.nav {
+  border-bottom: 1px solid rgb(0, 0, 0);
+  background: #ec2626;
+  color: #fff;
+  display: flex;
+}
+
+.nav__checkbox {
+  display: none;
+}
+
+.nav__toggle {
+  position: absolute;
+  cursor: pointer;
+  margin: 0 1rem;
+  right: 0;
+}
+
+.nav__toggle span {
+  width: 1rem;
+  color: white;
+}
+
+.nav__toggle .close {
+  display: none;
+}
+
+.nav__toggle .close,
+.nav__toggle .menu {
+  margin: 1.5rem 0.5rem auto;
+}
+
+.nav__menu {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  margin: 1rem;
+}
+
+.nav__menu li {
+  display: none;;
+}
+
+.nav__menu li:first-child {
+  display: block;
+  margin-right: auto;
+}
+
+.nav__menu a {
+  color: inherit;
+  font-size: 1.1rem;
+}
+
+.menu__logo {
+  height: 30px;
+}
+
+.menu__logo img {
+  height: 100%;
+  border: 2px solid #fff;
+  border-radius: 5px;
+}
+
+#nav__checkbox:checked ~ ul.nav__menu li {
+  display: block;
+}
+
+#nav__checkbox:checked ~ label.nav__toggle .close {
+  display: block;
+}
+
+#nav__checkbox:checked ~ label.nav__toggle .menu {
+  display: none;
+}
+
+/* content */
+.content {
+  height: 85vh;
+}
+
+/* footer */
+.footer {
+  border-top: 1px solid #000;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  color: #fff;
+}
+
+/* nav checked behavior */
+#nav__checkbox:checked ~ ul.nav__menu li {
+  display: block;
+}
+
+#nav__checkbox:checked ~ label.nav__toggle .close {
+  display: block;
+}
+
+#nav__checkbox:checked ~ label.nav__toggle .menu {
+  display: none;
+}
+
+/* media queries */
+@media only screen and (min-width: 560px) {
+  .nav__toggle {
+    display: none;
+  }
+
+  .nav__menu {
+    flex-direction: row;
+  }
+
+  .nav__menu li {
+    display: block;
+  }
+}
