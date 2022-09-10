@@ -20,7 +20,7 @@ a {
 
 /* navbar */
 .nav {
-  border-bottom: 1px solid rgb(0, 0, 0);
+  /* border-bottom: 1px solid rgb(0, 0, 0); */
   background: #ec2626;
   color: #fff;
   display: flex;
@@ -57,6 +57,8 @@ a {
   gap: 2rem;
   align-items: center;
   margin: 1rem;
+  --animate-duration: 2s;
+  --animate-delay: .9s;
 }
 
 .nav__menu li {
