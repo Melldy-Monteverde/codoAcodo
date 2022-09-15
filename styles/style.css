@@ -56,6 +56,8 @@ a {
   gap: 2rem;
   align-items: center;
   margin: 1rem;
+  --animate-duration: 2s;
+  --animate-delay: .9s;
 }
 
 .nav__menu li {
