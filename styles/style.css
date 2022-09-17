@@ -110,9 +110,20 @@ a {
   align-items: center;
 }
 
-.footer a {
-  color: #fff;
+/* revisar aqui */
+.footer ul.footer_link {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
 }
+
+.footer a.link {
+  color: #000;
+  font-size: 1.5rem;
+}
+/* revisar arriba */
 
 /* nav checked behavior */
 #nav__checkbox:checked ~ ul.nav__menu li {

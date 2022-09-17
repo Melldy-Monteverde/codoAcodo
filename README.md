@@ -4,7 +4,6 @@ Perichón - Articulos de limpieza textiles.
 
 **Secciones:**
 
-
 - Home (en progreso)
 - Contacts (en progreso)
 - [Instagram](https://www.instagram.com/trapos_perichon/)
