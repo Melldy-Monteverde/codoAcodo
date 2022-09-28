@@ -14,7 +14,8 @@ Perichón - Articulos de limpieza textiles.
 
 ---
 
-- Federico Gomez:
+- [Federico Gómez Gigliani](https://www.linkedin.com/in/federico-gomez-gigliani/) 
+  + [github](https://github.com/federicoggigliani)
 
 - [Melldy Montevede](https://www.linkedin.com/in/melldy-monteverde-b19390190/) 
   + [github](https://github.com/Melldy-Monteverde)

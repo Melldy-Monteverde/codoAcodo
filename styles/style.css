@@ -104,10 +104,13 @@ a {
 /* footer */
 .footer {
   border-top: 1px solid #000;
-  height: 100px;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #ec2626;
+  color: #fff;
+  display: flex;
 }
 
 /* revisar aqui */
@@ -137,6 +140,17 @@ a {
 #nav__checkbox:checked ~ label.nav__toggle .menu {
   display: none;
 }
+
+/* form-container */
+
+.content-form-section {
+  background-color: #ec2626;
+}
+/* .form-container {
+  background-color: aqua;
+} */
+
+
 
 /* media queries */
 @media only screen and (min-width: 560px) {
