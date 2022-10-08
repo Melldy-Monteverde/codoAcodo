@@ -17,17 +17,25 @@
   list-style-type: none;
 }
 
+html {
+  min-height: 100vh;
+}
+
 body {
-  height: 100vh;
   background: linear-gradient(
     0deg,
     rgba(0, 0, 0, .5),
     rgba(0, 0, 0, .5)
   ),
-  url('https://imgur.com/ukiMfyh.jpg');
+  url('https://imgur.com/ukiMfyh.jpg.jpg');
   background-repeat: repeat-y;
   background-position: center center;
   background-size: cover;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 a {
@@ -43,6 +51,7 @@ a {
   position: sticky;
   top: 0;
   z-index: 99;
+  width: 100%;
 }
 
 .nav__checkbox {
@@ -137,6 +146,9 @@ main.main__content {
 
 section.content {
   background-color: #ec2626;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
 }
 
 section.cards__container {
@@ -152,12 +164,12 @@ section.cards__container {
 article.cards {
   border: 2px solid #fff;
   border-radius: 10px;
-  max-width: 270px;
+  max-width: 280px;
 }
 
 article.cards img.card_item {
   object-fit: contain;
-  width: 260px;
+  width: 280px;
   border-radius: 10px;
 }
 
@@ -213,15 +225,15 @@ img.form-img {
 /* footer */
 .footer {
   border-top: 1px solid #fff;
-  position: relative;
-  bottom: 0;
-  /* margin-top: 1rem; */
   background-color: var(--primaryColor);
   width: 100%;
   height: 80px;
+
+  align-self: flex-end;
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 5px;
 }
 
 .footer ul.footer_link {
@@ -276,6 +288,28 @@ span.fab {
 
   .nav__menu li {
     display: block;
+  }
+
+  section.cards__container {
+    margin-top: .5em;
+    padding: 1em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  article.cards {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    max-width: 350px;
+  }
+  
+  article.cards img.card_item {
+    object-fit: contain;
+    width: 340px;
+    border-radius: 10px;
   }
 
   div.form-container {
