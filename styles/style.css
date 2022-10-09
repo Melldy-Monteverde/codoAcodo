@@ -311,12 +311,12 @@ span.fab {
   article.cards {
     border: 2px solid #fff;
     border-radius: 15px;
-    max-width: 350px;
+    max-width: 280px;
   }
   
   article.cards img.card_item {
     object-fit: contain;
-    width: 340px;
+    width: 275px;
     border-radius: 10px;
   }
 
