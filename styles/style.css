@@ -163,14 +163,14 @@ section.cards__container {
 
 article.cards {
   border: 2px solid #fff;
-  border-radius: 10px;
-  max-width: 280px;
+  border-radius: 15px;
+  width: 280px;
 }
 
 article.cards img.card_item {
   object-fit: contain;
-  width: 280px;
-  border-radius: 10px;
+  width: 275px;
+  border-radius: 15px;
 }
 
 /* form */
@@ -207,7 +207,9 @@ form.my-form button.btn-enviar:hover {
 }
 
 div.form-container {
-  /* border: 2px solid black; */
+  background: rgba(239, 239, 239, .5);
+  border: 2px solid #fff;
+  border-radius: 15px;
   display: flex;
   flex-flow: column wrap;
   justify-content: space-around;
@@ -276,6 +278,8 @@ span.fab {
 @media only screen and (min-width: 560px) {
   body {
    background-repeat: repeat;
+   flex-direction: column;
+   justify-content: space-between;
   }
 
   .nav__toggle {
@@ -290,6 +294,10 @@ span.fab {
     display: block;
   }
 
+  header.header {
+    margin-top: 1rem; 
+  }
+  
   section.cards__container {
     margin-top: .5em;
     padding: 1em;
@@ -302,7 +310,7 @@ span.fab {
   
   article.cards {
     border: 2px solid #fff;
-    border-radius: 10px;
+    border-radius: 15px;
     max-width: 350px;
   }
   
@@ -313,12 +321,13 @@ span.fab {
   }
 
   div.form-container {
-    /* border: 2px solid #fff; */
-    margin-top: 1rem;
-    display: flex;
+    padding-left: 1rem;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+    gap: .5em;
+    width: auto;
+    margin: auto 20%;
   }
   
   img.form-img {
