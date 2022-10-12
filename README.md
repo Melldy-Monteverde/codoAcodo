@@ -5,16 +5,26 @@ Perichón - Articulos de limpieza textiles.
 **Secciones:**
 
 - Home (en progreso)
-- Contacts (en progreso)
+- Nosotros (en progreso)
+- Contactos (en progreso)
 - [Instagram](https://www.instagram.com/trapos_perichon/)
 - [Facebook](https://www.facebook.com/traposperichon)
 
+**Animaciones**
+- navbar
+- hero title
+
 **[Dashboard del proyecto](https://trello.com/b/SCJv9Mmy/codo-a-codo-workspace)**
+
 ## Autores
 
 ---
 
+<<<<<<< HEAD
 - [Federico Gómez Gigliani](https://www.linkedin.com/in/federico-gomez-gigliani/) 
+=======
+- [Federico Gomez](https://www.linkedin.com/in/federico-gomez-gigliani/):
+>>>>>>> main
   + [github](https://github.com/federicoggigliani)
 
 - [Melldy Montevede](https://www.linkedin.com/in/melldy-monteverde-b19390190/) 
