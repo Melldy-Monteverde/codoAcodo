@@ -135,20 +135,33 @@ h1.hero-title {
 }
 
 /* content */
-main.main__content {
+main.main__container {
   background: rgba(239, 239, 239, .5);
   border: 2px solid #fff;
   border-radius: 5px;
   margin: .7rem;
   padding: 2px;
   text-align: justify;
+  min-height: 60vh;
 }
 
-section.content {
+p.main__content {
+  margin-top: 1rem;
+  padding: 2px;
+  text-align: justify;
+  /* justify-content:center;
+  align-items: center; */
+}
+
+section.content_title {
   background-color: #ec2626;
   border-radius: 5px;
   color: #fff;
   text-align: center;
+}
+
+img.main_picture{
+  height: 500px;
 }
 
 section.cards__container {
@@ -165,6 +178,18 @@ article.cards {
   border: 2px solid #fff;
   border-radius: 15px;
   width: 280px;
+}
+
+iframe.cards {
+  border: 1px solid black;
+  border-radius: 15px;
+  height: 300px;
+  width: 275px;
+}
+
+h4.map__container_title{
+  text-align: center;
+  color: #fff;
 }
 
 article.cards img.card_item {
@@ -221,15 +246,17 @@ img.form-img {
   border: 2px solid #fff;
   border-radius: 15px;
   margin-top: .5rem;
-  width: 250px;
+  width: 320px;
 }
 
 /* footer */
 .footer {
   border-top: 1px solid #fff;
   background-color: var(--primaryColor);
+  color: #fff;
   width: 100%;
   height: 80px;
+  margin-top: .5rem;
 
   align-self: flex-end;
   display: flex;
@@ -256,7 +283,7 @@ img.form-img {
   align-items: center;
 }
 
-span.fab {
+span.fab, span.fas {
   color: #fff;
   font-size: 1.5rem;
 }
@@ -276,6 +303,15 @@ span.fab {
 
 /* media queries */
 @media only screen and (min-width: 560px) {
+
+  p.main__content {
+    margin-top: 1rem;
+    padding: 4px;
+    text-align: justify;
+    font-size: 1.5rem;
+  }
+
+
   body {
    background-repeat: repeat;
    flex-direction: column;
@@ -335,5 +371,18 @@ span.fab {
     border-radius: 15px;
     margin-top: .5rem;
     width: 350px;
+  }
+
+  form.my-form {
+    background-color: var(--primaryColor);
+    border-radius: 15px;
+    border: 2px solid #fff;
+    margin: 1em;
+    padding: .5em;
+    width: 350px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
   }
 }
