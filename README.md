@@ -2,11 +2,16 @@
 
 Perichón - Articulos de limpieza textiles.
 
+**[Repositorio del proyecto](https://github.com/Melldy-Monteverde/codoAcodo)**
+
 **Secciones:**
 
-- Home (en progreso)
-- Nosotros (en progreso)
-- Contactos (en progreso)
+- Home 
+- Nosotros
+- Encontranos 
+- Contactos
+*Uso de API (local) Sección Encontranos*
+*Uso de FormSpree (local) Sección Contactos*
 - [Instagram](https://www.instagram.com/trapos_perichon/)
 - [Facebook](https://www.facebook.com/traposperichon)
 
@@ -17,9 +22,7 @@ Perichón - Articulos de limpieza textiles.
 **[Dashboard del proyecto](https://trello.com/b/SCJv9Mmy/codo-a-codo-workspace)**
 
 ## Autores
-
 ---
-
 - [Federico Gomez](https://www.linkedin.com/in/federico-gomez-gigliani/):
   + [github](https://github.com/federicoggigliani)
 

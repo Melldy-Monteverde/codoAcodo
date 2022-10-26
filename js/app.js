@@ -33,7 +33,7 @@ async function handleSubmit(event) {
     });
 }
 
-form.addEventListener("submit", handleSubmit);
+// form.addEventListener("submit", handleSubmit); ESTA LINEA GENERA PROBLEMAS, VER CONSOLA.
 
 const apiRender = async () => {
   try {
