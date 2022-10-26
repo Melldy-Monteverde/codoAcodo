@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Clean Resistencia",
+    "dir": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3539.552815183783!2d-58.940152284750695!3d-27.483178023856617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x944572b6ad6ce2b1%3A0xc849655a31eeb194!2sDistribuidora%20Goloso!5e0!3m2!1ses-419!2sar!4v1665613735086!5m2!1ses-419!2sar"
+  },
+  {
+    "id": 2,
+    "title": "Clean Formosa",
+    "dir": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6021.042624700185!2d-58.21684688260366!3d-26.18791422020454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945caf386fcca67d%3A0xe876551379129191!2sClean%20Soluci%C3%B3n%20En%20Limpieza!5e0!3m2!1ses-419!2sar!4v1665784951937!5m2!1ses-419!2sar"
+  },
+  {
+    "id": 3,
+    "title": "BurBruja Corrientes",
+    "dir": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2503.10941893213!2d-58.78903837983092!3d-27.471398441935605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94456b1cb6b37e57%3A0x30be8e11fe4de94b!2sAv.%20Narciso%20Laprida%201216%2C%20W3400%20Corrientes!5e0!3m2!1ses-419!2sar!4v1665785270765!5m2!1ses-419!2sar"
+  },
+  {
+    "id": 4,
+    "title": "Quimica Pura",
+    "dir": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2104.221983220506!2d-58.79505809843413!3d-27.50455979999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94456bb7e2655853%3A0xccc6d4e12ead26f8!2sCuba%205151%2C%20W3408%20Corrientes!5e0!3m2!1ses-419!2sar!4v1665785521551!5m2!1ses-419!2sar"
+  },
+  {
+    "id": 5,
+    "title": "Taraguy",
+    "dir": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3539.8300986002946!2d-58.82351658523297!3d-27.474548323486278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94456b669e5216cb%3A0x6ad5e38cd9b6b054!2sMariano%20Moreno%202375%2C%20W3400ADV%20Corrientes!5e0!3m2!1ses-419!2sar!4v1665785755551!5m2!1ses-419!2sar"
+  },
+  {
+    "id": 6,
+    "title": "Ultra Limpio",
+    "dir": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3540.0058794312467!2d-58.96449048523315!3d-27.46907632325222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94450d26ecbe0795%3A0xd6639416da313c10!2sC.%20Emilio%20Rom%C3%A1n%20230%2C%20H3500%20Resistencia%2C%20Chaco!5e0!3m2!1ses-419!2sar!4v1665785876459!5m2!1ses-419!2sar"
+  },
+  {
+    "id": 7,
+    "title": "Hasso",
+    "dir": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.2076635377393!2d-58.18356788526862!3d-26.189922169752776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945ca5fc4d42b0e7%3A0x4d113661aa4d521d!2sBrandsen%201595%2C%20P3600FFI%20Formosa!5e0!3m2!1ses-419!2sar!4v1665786023066!5m2!1ses-419!2sar"
+  }
+]

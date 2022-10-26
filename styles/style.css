@@ -19,15 +19,12 @@
 
 html {
   min-height: 100vh;
+  min-width: 100%;
 }
 
 body {
-  background: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, .5),
-    rgba(0, 0, 0, .5)
-  ),
-  url('https://imgur.com/ukiMfyh.jpg.jpg');
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://imgur.com/ukiMfyh.jpg.jpg");
   background-repeat: repeat-y;
   background-position: center center;
   background-size: cover;
@@ -87,11 +84,11 @@ a {
   align-items: center;
   margin: 1rem;
   --animate-duration: 2s;
-  --animate-delay: .9s;
+  --animate-delay: 0.9s;
 }
 
 .nav__menu li {
-  display: none;;
+  display: none;
 }
 
 .nav__menu li:first-child {
@@ -131,15 +128,15 @@ h1.hero-title {
   color: #fff;
   text-align: center;
   --animate-duration: 2s;
-  --animate-delay: .9s;
+  --animate-delay: 0.9s;
 }
 
 /* content */
 main.main__container {
-  background: rgba(239, 239, 239, .5);
+  background: rgba(239, 239, 239, 0.5);
   border: 2px solid #fff;
   border-radius: 5px;
-  margin: .7rem;
+  margin: 0.7rem;
   padding: 2px;
   text-align: justify;
   min-height: 60vh;
@@ -160,12 +157,12 @@ section.content_title {
   text-align: center;
 }
 
-img.main_picture{
+img.main_picture {
   height: 500px;
 }
 
 section.cards__container {
-  margin-top: .5em;
+  margin-top: 0.5em;
   padding: 1em;
   display: flex;
   flex-flow: row wrap;
@@ -187,7 +184,7 @@ iframe.cards {
   width: 275px;
 }
 
-h4.map__container_title{
+h4.map__container_title {
   text-align: center;
   color: #fff;
 }
@@ -204,7 +201,7 @@ form.my-form {
   border-radius: 15px;
   border: 2px solid #fff;
   margin: 1em;
-  padding: .5em;
+  padding: 0.5em;
   width: 20em;
   display: flex;
   flex-flow: column wrap;
@@ -212,7 +209,8 @@ form.my-form {
   align-items: center;
 }
 
-form.my-form input, textarea {
+form.my-form input,
+textarea {
   border: none;
   border-radius: 5px;
   padding: 2px;
@@ -232,7 +230,7 @@ form.my-form button.btn-enviar:hover {
 }
 
 div.form-container {
-  background: rgba(239, 239, 239, .5);
+  background: rgba(239, 239, 239, 0.5);
   border: 2px solid #fff;
   border-radius: 15px;
   display: flex;
@@ -245,7 +243,7 @@ img.form-img {
   object-fit: contain;
   border: 2px solid #fff;
   border-radius: 15px;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
   width: 320px;
 }
 
@@ -256,7 +254,7 @@ img.form-img {
   color: #fff;
   width: 100%;
   height: 80px;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 
   align-self: flex-end;
   display: flex;
@@ -270,7 +268,7 @@ img.form-img {
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  gap: .5rem;
+  gap: 0.5rem;
 }
 
 /* social icons */
@@ -283,7 +281,8 @@ img.form-img {
   align-items: center;
 }
 
-span.fab, span.fas {
+span.fab,
+span.fas {
   color: #fff;
   font-size: 1.5rem;
 }
@@ -303,7 +302,6 @@ span.fab, span.fas {
 
 /* media queries */
 @media only screen and (min-width: 560px) {
-
   p.main__content {
     margin-top: 1rem;
     padding: 4px;
@@ -311,11 +309,10 @@ span.fab, span.fas {
     font-size: 1.5rem;
   }
 
-
   body {
-   background-repeat: repeat;
-   flex-direction: column;
-   justify-content: space-between;
+    background-repeat: repeat;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   .nav__toggle {
@@ -331,11 +328,11 @@ span.fab, span.fas {
   }
 
   header.header {
-    margin-top: 1rem; 
+    margin-top: 1rem;
   }
-  
+
   section.cards__container {
-    margin-top: .5em;
+    margin-top: 0.5em;
     padding: 1em;
     display: flex;
     flex-flow: row wrap;
@@ -343,13 +340,13 @@ span.fab, span.fas {
     align-items: center;
     gap: 5px;
   }
-  
+
   article.cards {
     border: 2px solid #fff;
     border-radius: 15px;
     max-width: 280px;
   }
-  
+
   article.cards img.card_item {
     object-fit: contain;
     width: 275px;
@@ -361,15 +358,15 @@ span.fab, span.fas {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    gap: .5em;
+    gap: 0.5em;
     width: auto;
     margin: auto 20%;
   }
-  
+
   img.form-img {
     border: 2px solid #fff;
     border-radius: 15px;
-    margin-top: .5rem;
+    margin-top: 0.5rem;
     width: 350px;
   }
 
@@ -378,8 +375,50 @@ span.fab, span.fas {
     border-radius: 15px;
     border: 2px solid #fff;
     margin: 1em;
-    padding: .5em;
+    padding: 0.5em;
     width: 350px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  p.main__content {
+    margin-top: 1rem;
+    padding: 4px;
+    text-align: justify;
+    font-size: 1.3rem;
+  }
+
+  fpan.fab,
+  span.fas {
+    color: #fff;
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  p.main__content {
+    font-size: 1.7rem;
+  }
+
+  img.form-img {
+    border: 2px solid #fff;
+    border-radius: 15px;
+    margin-top: 0.5rem;
+    width: 450px;
+  }
+
+  form.my-form {
+    background-color: var(--primaryColor);
+    border-radius: 15px;
+    border: 2px solid #fff;
+    margin: 1em;
+    padding: 0.5em;
+    width: 30em;
+    height: 25em;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;

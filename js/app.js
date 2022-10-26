@@ -28,8 +28,38 @@ async function handleSubmit(event) {
       }
     })
     .catch((error) => {
+      console.log(error);
       status.innerHTML = "Oops! Hubo un problema enviando tu mensaje.";
     });
 }
 
 form.addEventListener("submit", handleSubmit);
+
+const apiRender = async () => {
+  try {
+    const res = await fetch("../api.json");
+    const data = await res.json();
+
+    let maps = "";
+
+    data.forEach((el) => {
+      maps = maps += `
+       <article class="cards">
+            <h4 class="map__container_title">${el.title}</h4>
+            <iframe
+              class="cards"
+              src="${el.dir}"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+        </article> 
+      `;
+    });
+    document.getElementById("maps-container").innerHTML = maps;
+  } catch (e) {
+    console.log(e);
+  }
+};
+
+apiRender();
